@@ -1,5 +1,5 @@
 select  pizza_name from menu
-union
+intersect
 select  pizza_name from menu
 order by pizza_name desc
 
